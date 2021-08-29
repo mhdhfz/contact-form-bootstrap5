@@ -1,0 +1,20 @@
+body {
+    background: #30E8BF;
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
+    background: linear-gradient(to right, #FF8235, #30E8BF); 
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.g-3.mb-3 .col{
+    position: relative;
+}
+.bi.bi-person-lines-fill{
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+.bi.bi-person-lines-fill:hover{
+    color: gray;
+}
